@@ -1,0 +1,21 @@
+.productcontainer {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+.wheytextcontainer {
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 35px;
+}
+.productcontainer img {
+    border: solid 2px aliceblue;
+    max-height: 500px;
+    min-width: 320px;
+}

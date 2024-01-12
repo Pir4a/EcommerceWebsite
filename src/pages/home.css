@@ -1,0 +1,125 @@
+*,
+::before,
+::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    margin-top: 160px;
+    width: 60%;
+    height: 500px;
+    display :grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    filter: brightness(80%);
+}
+.grid img:hover {
+    filter: brightness(60%);
+}
+.imgwhey {
+
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    
+    }
+ .imgomega{
+
+grid-column: 3;
+grid-row: 1/2;
+        }
+  .imgsnacks {
+
+ grid-column: 4;
+    grid-row: 2/1;
+                    }
+#prot {
+    position: absolute;
+    top: 610px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e7efef;
+    font-size: xx-large;
+    left: 22%;
+    font-weight:900;
+}
+#snacks {
+    position: absolute;
+    top: 610px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e7efef;
+    font-size: xx-large;
+    left: 67%;
+    font-weight: bolder;
+}
+#sante {
+    position: absolute;
+    top: 610px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e7efef;
+    font-size: xx-large;
+    left: 51%;
+    font-weight: bolder;
+}
+
+.bs-container {
+    margin-top: 10vh;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.products {
+    margin-top: 7vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    height: 150px;
+    gap: 55px;
+}
+
+.best-sellers h1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products img {
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+        object-fit:scale-down;
+        border: 2px solid gainsboro;
+}
+.product {
+ 
+    transition: transform 0.1s ease-in-out;
+}
+.product:hover {
+    transform: scale(1.1);
+}
+#productp {
+    margin-top: 8px;
+}
+
+.product p {
+    font-weight: 430;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
