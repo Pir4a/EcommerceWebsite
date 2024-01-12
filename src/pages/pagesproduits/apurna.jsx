@@ -8,7 +8,7 @@ function Apurnabar() {
   return (
     <div>
         <div className="productcontainer">
-        {PRODUCTSSNACKS.map((product)=> <Product data={product}/>).slice(0,1)}
+        {PRODUCTSSNACKS.map((product)=> <Product data={product}  key={product.id}/>).slice(0,1)}
             <div className='wheytextcontainer'>
             <h1>Barre Protéinée Apurna</h1>
             <p>Un délice a la teneur exeptionelle de 35% en protéine.</p>

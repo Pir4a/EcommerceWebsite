@@ -8,7 +8,7 @@ function Caffein() {
   return (
     <div>
         <div className="productcontainer">
-        {PRODUCTSSUPPS.map((product)=> <Product data={product}/>).slice(3,4)}
+        {PRODUCTSSUPPS.map((product)=> <Product data={product}  key={product.id}/>).slice(3,4)}
             <div className='wheytextcontainer'>
             <h1>Caffeine 60 caps | 100mg/caps</h1>
             <p>Comprimé de cafféine pour une augmentation de la concentration et du niveau d'énergie.</p>

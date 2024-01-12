@@ -38,7 +38,7 @@ function Home() {
      </div>
      <div className="bs-container">
         <div className="best-sellers"><h1>Nos meilleures ventes : </h1> 
-          <div className='products'> {PRODUCTSPROTEIN.map((product)=> <Product data={product}/>).slice(0,2)} {PRODUCTSSUPPS.map((product)=> <Product data={product}/>).slice(0,2)}</div>
+          <div className='products'> {PRODUCTSPROTEIN.map((product)=> <Product data={product} key={product.id}/>).slice(0,2)} {PRODUCTSSUPPS.map((product)=> <Product data={product} key={product.id}/>).slice(0,2)}</div>
        </div>  
      </div>
      <Rippedcard />

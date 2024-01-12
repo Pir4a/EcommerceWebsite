@@ -14,7 +14,7 @@ export const Product = (props) => {
 
         
 
-    return <div className="product">
+    return <div className="product" key={id}>
         <Link to ={`/${link}`}>
         <img src={productImage}/> </Link>
         <div className="description">

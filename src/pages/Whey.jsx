@@ -11,7 +11,7 @@ function Whey() {
           <h1>Nos meilleures protéines laitière : </h1>
         </div>
         <div className="wheygrid">
-        <div className='products'> {PRODUCTSPROTEIN.map((product)=> <Product data={product}/>)}</div>
+        <div className='products'> {PRODUCTSPROTEIN.map((product)=> <Product data={product} key={product.id}/>)}</div>
         </div>
       </div>
     </div>

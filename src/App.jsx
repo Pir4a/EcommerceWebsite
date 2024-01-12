@@ -44,6 +44,7 @@ function App() {
           <Route path="/cart" element={<Cart />}/>
           <Route path="/whey/whey-protein" element={<Wheyprotein />}/>
           <Route path="/whey/whey-protein-vegan" element={<Wheyproteinvegan />}/>
+          <Route path="/whey/whey-protein-isolate" element={<Wheyproteinisolate />}/>
           <Route path="/whey/casein" element={<Casein />}/>
           <Route path="/snacks/barre-proteinee-apurna" element={<Apurnabar />}/>
           <Route path="/snacks/barre-proteinee-gourmande" element={<Gourmande />}/>

@@ -12,7 +12,7 @@ function Snacks() {
           <h1>Des encas protéinés succulents :  </h1>
         </div>
         <div className="barregrid">
-        <div className='products'> {PRODUCTSSNACKS.map((product)=> <Product data={product}/>)}</div>
+        <div className='products'> {PRODUCTSSNACKS.map((product)=> <Product data={product} key={product.id}/>)}</div>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ function Supps() {
           <h1>Des compléments pour vivre longtemps & en excellente forme physique : </h1>
         </div>
         <div className="wheygrid"></div>
-      <div className='products'> {PRODUCTSSUPPS.map((product)=> <Product data={product}/>)}</div>
+      <div className='products'> {PRODUCTSSUPPS.map((product)=> <Product data={product} key={product.id}/>)}</div>
       </div>
       </div>
   )

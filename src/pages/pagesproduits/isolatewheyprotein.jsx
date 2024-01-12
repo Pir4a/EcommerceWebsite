@@ -8,7 +8,7 @@ function Wheyproteinisolate() {
   return (
     <div>
         <div className="productcontainer">
-        {PRODUCTSPROTEIN.map((product)=> <Product data={product}/>).slice(1,2)}
+        {PRODUCTSPROTEIN.map((product)=> <Product data={product} key={product.id}/>).slice(1,2)}
             <div className='wheytextcontainer'>
             <h1>Gold Standard Whey Protein Isolate</h1>
             <p>Le meilleur isolat de whey pour les athletes les plus performants.</p>

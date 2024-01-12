@@ -8,7 +8,7 @@ function Creatinecaps() {
   return (
     <div>
         <div className="productcontainer">
-        {PRODUCTSSUPPS.map((product)=> <Product data={product}/>).slice(2,3)}
+        {PRODUCTSSUPPS.map((product)=> <Product data={product}  key={product.id}/>).slice(2,3)}
             <div className='wheytextcontainer'>
             <h1>Creatine 90 caps | 1g / capsule </h1>
             <p>Comprimés de créatine pour augmenter la performance chez les sportifs.</p>

@@ -16,17 +16,17 @@ function Cart() {
         <div className="cartItems">
             {PRODUCTSPROTEIN.map((Product)=> {
                 if (cartItems[Product.id] !==0){
-                    return <CartItem data={Product}/>
+                    return <CartItem data={Product} key={Product.id}/>
                 }
             })}
              {PRODUCTSSNACKS.map((Product)=> {
                 if (cartItems[Product.id] !==0){
-                    return <CartItem data={Product}/>
+                    return <CartItem data={Product} key={Product.id}/>
                 }
             })}
              {PRODUCTSSUPPS.map((Product)=> {
                 if (cartItems[Product.id] !==0){
-                    return <CartItem data={Product}/>
+                    return <CartItem data={Product} key={Product.id}/>
                 }
             })}
 

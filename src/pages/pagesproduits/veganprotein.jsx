@@ -8,7 +8,7 @@ function Wheyproteinvegan() {
   return (
     <div>
         <div className="productcontainer">
-        {PRODUCTSPROTEIN.map((product)=> <Product data={product}/>).slice(2,3)}
+        {PRODUCTSPROTEIN.map((product)=> <Product data={product} key={product.id}/>).slice(2,3)}
             <div className='wheytextcontainer'>
             <h1>Gold Standard WHEY</h1>
             <p>La meilleure whey pour les athletes les plus performants.</p>
