@@ -21,14 +21,14 @@ function Home() {
           </Link>
          </div>
          <div className='imgomega'>
-          <Link to="/whey">
+          <Link to="/nutrition">
               <img src="https://img.passeportsante.net/1200x675/2021-05-03/i105273-acides-gras-omega3-dha-nu.webp"
                alt="supps"/>
                <p class="textsante">Santé</p>
           </Link>
          </div>
-         <div className='imgsnacks'>
-          <Link to="/whey">
+         <div className='snacks'>
+          <Link to="/snacks">
               <img src="https://touteslesbox.fr/wp-content/uploads/2021/10/barre-proteinee-02-768x512.jpg"
                alt="snacks"/>
                <p class="textsnacks">Snacks</p>
