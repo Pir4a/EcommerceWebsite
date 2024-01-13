@@ -1,6 +1,6 @@
 import React, { createContext } from 'react'
 import { useState } from 'react';
-import { PRODUCTSPROTEIN, PRODUCTSSNACKS, PRODUCTSSUPPS } from '../components/Products';
+import { PRODUCTS, PRODUCTSPROTEIN, PRODUCTSSNACKS, PRODUCTSSUPPS } from '../components/Products';
 
 export const ShopContext = createContext(null);
 
@@ -20,7 +20,7 @@ export const ShopcontextProvider = (props) => {
       let totalAmount = 0;
       for (const item in cartItems){
         if (cartItems[item]>0){
-          let itemInfo = PRODUCTSPROTEIN.find((product)=> product.id ===Number(item)) + PRODUCTSSNACKS.find((product)=> product.id ===Number(item)) + PRODUCTSSUPPS.find((product)=> product.id ===Number(item));
+          let itemInfo = PRODUCTS.find((product)=> product.id ===Number(item));
 
 
           totalAmount += cartItems[item] * itemInfo.price
