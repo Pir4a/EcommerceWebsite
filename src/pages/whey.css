@@ -5,10 +5,16 @@
     align-items:center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -75px;
 }
 .wheygrid {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 767px) {
+    .wheycontainer {
+        height: 198vh;
+       
+        
+    }
 }

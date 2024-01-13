@@ -20,3 +20,14 @@
     top: 16vh;
     letter-spacing: 2px;
 }
+@media (max-width: 767px){
+    .comingsoon img {
+        min-width: none;
+        min-height: none;
+        object-fit: cover;
+    }
+    .comingsoon {
+        height: 55vh;
+        padding: 0px;
+    }
+}

@@ -17,3 +17,34 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 767px) {
+    .barrecontainer {
+        height: 240vh;
+        ;
+        margin-top: 0px;
+        padding-bottom: 0;
+    }
+    .barregrid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product {
+        height: 45vh;
+    }
+}
+@media (max-width: 1250px) and (min-width: 768px) {
+    .barrecontainer {
+        height: 170vh;
+        margin-top: -48vh;
+        padding-bottom: 0;
+    }
+    .barregrid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product {
+        height: 45vh;
+    }
+}

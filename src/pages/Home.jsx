@@ -17,21 +17,21 @@ function Home() {
           <Link to="/whey">
               <img src="https://www.toutelanutrition.com/media/cache/terravita_blog_article_thumbnail_medium/blog/wikifit-nutrition-complements-a-quoi-sert-la-whey-proteine.jpg"
                alt="wheyprotein"/>
-               <p id="prot">Protéine Whey</p>
+               <p class="textprot">Protéine Whey</p>
           </Link>
          </div>
          <div className='imgomega'>
           <Link to="/whey">
               <img src="https://img.passeportsante.net/1200x675/2021-05-03/i105273-acides-gras-omega3-dha-nu.webp"
                alt="supps"/>
-               <p id="sante">Santé</p>
+               <p class="textsante">Santé</p>
           </Link>
          </div>
          <div className='imgsnacks'>
           <Link to="/whey">
               <img src="https://touteslesbox.fr/wp-content/uploads/2021/10/barre-proteinee-02-768x512.jpg"
                alt="snacks"/>
-               <p id="snacks">Snacks</p>
+               <p class="textsnacks">Snacks</p>
           </Link>
          </div>
 

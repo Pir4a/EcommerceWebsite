@@ -7,7 +7,7 @@ import '../pages/Home.jsx'
 function Header() {
 
   return (
-    <div> 
+    <div>
       <header className='header'>
         <nav className='navbar'>
             <Link to="/"><img src="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png" className='logo' alt="logo"/></Link>
