@@ -1,6 +1,6 @@
 .barrecontainer {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -33,8 +33,9 @@
         height: 45vh;
     }
 }
-@media (max-width: 1250px) and (min-width: 768px) {
+@media (max-width: 1500px) and (min-width: 768px) {
     .barrecontainer {
+        width: 98%;
         height: 170vh;
         margin-top: -48vh;
         padding-bottom: 0;
